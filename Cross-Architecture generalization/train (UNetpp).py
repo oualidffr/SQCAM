@@ -96,6 +96,9 @@ def train(seed):
     Vimg = r"D:\FFR\Skin\_SK_ALL_Data_Resized\ISIC2018\resized\v"
     Vlbl = r"D:\FFR\Skin\_SK_ALL_Data_Resized\ISIC2018\resized\v.lbl"
 
+    # (_SK_ALL_Data_Resized : original datasets images resized to HxW = 192x256)
+    #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   
+
     # Datasets and loaders   
     train_dataset = ArrowSegmentationDataset(TRimg, TRlbl, is_train=True) 
     val_dataset = ArrowSegmentationDataset(Vimg, Vlbl, is_train=False)
