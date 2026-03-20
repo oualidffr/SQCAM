@@ -98,7 +98,9 @@ def test(seed):
     #test_lbl_resized = r"D:\FFR\Skin\_SK_ALL_Data_Resized\PH2\resized\all.lbl" 
     #test_lbl_original = r"D:\FFR\Skin\_SK_ALL_Data_\PH2\all.lbl"
 
-    #   #   #   #   #   #   #
+    # (_SK_ALL_Data_ : original datasets) (_SK_ALL_Data_Resized : original datasets images resized to HxW = 192x256)
+    #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #   #  
+    
     run_name = f"Experiment_name_{seed}"
     run_model_root = os.path.join(train_results_base_root, run_name)
     test_csv_root = os.path.join(test_results_base_root, run_name)
