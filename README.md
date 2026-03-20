@@ -37,7 +37,7 @@ and are not redistributed in this repository.
 
 ## 📁 Repository Structure
 > *(For clarity the repository is split to two parts)*
-         
+```text         
 SQCAM/
 ├── Attention mechanisms comparaisons/       # U-Net experiments with different attention modules
 │   ├── dataclass.py
@@ -106,5 +106,5 @@ SQCAM/
 │               ├── metrics.csv
 │               └── model.pth
 └── README.md
-
+```
  
