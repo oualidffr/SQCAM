@@ -39,8 +39,7 @@ and are not redistributed in this repository.
 > *(For clarity the repository is split to two parts)*
          
 SQCAM/
-│
-├── Attention mechanisms comparaisons/
+├── Attention mechanisms comparaisons/       # U-Net experiments with different attention modules
 │   ├── dataclass.py
 │   ├── Test.py
 │   ├── Train.py
@@ -71,8 +70,7 @@ SQCAM/
 │               ├── metrics.csv
 │               ├── UNet_SQCAM.png
 │               └── unet_model.pth
-│
-├── Cross-Architecture generalization/
+├── Cross-Architecture generalization/       # Experiments applying SQCAM to multiple segmentation architectures
 │   ├── dataclass.py
 │   ├── test.py
 │   ├── train.py
@@ -81,7 +79,7 @@ SQCAM/
 │       ├── deeplabv3plus.py
 │       ├── Resnet18_FPN.py
 │       ├── SegFormer_B0.py
-│       └── unetPP.py
+│       ├── unetPP.py
 │       └── Pretrained - weights/
 │           ├── Deeplabv3plus/
 │           │   ├── link to model weights (.pth file).txt
@@ -107,6 +105,6 @@ SQCAM/
 │           └── UNetpp SQCAM/
 │               ├── metrics.csv
 │               └── model.pth
-│
 └── README.md
+
  
