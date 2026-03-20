@@ -5,7 +5,7 @@ Official implementation of **SQCAM (Soft Quantile Channel Attention Module)** fo
 This repository provides the **source code**, **training pipeline**, and **pretrained model weights** of the paper:
 
 > **SQCAM: SQCAM: Soft Quantile Channel Attention Module for Skin Lesion Segmentation**  
-> *(paper submited)*
+> *(paper submitted)*
 
 ---
 
